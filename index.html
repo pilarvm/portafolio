@@ -11,6 +11,7 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets\css\proyects-cards.css" />
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 </head>
@@ -40,13 +41,15 @@
 
 			<!-- Panel (Spotlight) -->
 			<section class="panel spotlight medium right" id="first">
-				<div class="content span-7 ">
-					<h2 class="major ">Acerca de mi</h2>
-					<p>Soy una profesional apasionada por el mundo de la tecnología.
-						Curiosa, autodidacta y muy creativa. <br><br>
+				<div class="content span-7">
+					<div class="shadow">
+						<h2 class="major ">Acerca de mi</h2>
+						<p>Soy una profesional apasionada por el mundo de la tecnología.
+							Curiosa, autodidacta y muy creativa. <br><br>
 
-						Me gusta asumir retos y metas cada vez más grandes que permitan poner a prueba mis habilidades
-						resolutivas.</p>
+							Me gusta asumir retos y metas cada vez más grandes que permitan poner a prueba mis habilidades
+							resolutivas.</p>
+					</div>
 				</div>
 				<div class="image filtered tinted" data-position="top left">
 					<img src="images/pic022.jpg" alt="" />
@@ -60,15 +63,14 @@
 					<p></p>
 				</div>
 				<div class="inner">
-					<ul class="grid-icons three connected">
-						<li><span class="icon fa-diamond">Auto<br>aprendizaje<span class="label"></span></span></li>
-						<li><span class="icon fa-camera-retro">Trabajo en <br>equipo<span class="label"></span></span>
-						</li>
-						<li><span class="icon fa-cog">Creatividad<span class="label"></span></span></li>
-						<li><span class="icon fa-paper-plane">Comunicación<span class="label"></span></span></li>
-						<li><span class="icon fa-bar-chart">Empatía<span class="label"></span></span></li>
-						<li><span class="icon fa-bar-chart">Empatía<span class="label"></span></span></li>
-
+					<ul class="grid-icons three ">
+						<div>
+							<img src="images\hb\5.png" alt="" class="redimen" /><span class="icon">Auto aprendizaje</span>
+							<img src="images\hb\1.png" alt="" class="redimen" /><span class="icon">Trabajo en equipo</span>
+							<img src="images\hb\3.png" alt="" class="redimen" /><span class="icon">Empatía</span>
+							<img src="images\hb\4.png" alt="" class="redimen" /><span class="icon">Comunicación</span>
+						
+						</div>
 					</ul>
 				</div>
 			</section>
@@ -81,14 +83,16 @@
 				</div>
 				<div class="inner">
 					<ul class="grid-icons three connected">
-						<li><span class="icon fa-diamond">Auto<br>aprendizaje<span class="label"></span></span></li>
-						<li><span class="icon fa-camera-retro">Trabajo en <br>equipo<span class="label"></span></span>
-						</li>
-						<li><span class="icon fa-cog">Creatividad<span class="label"></span></span></li>
-						<li><span class="icon fa-paper-plane">Comunicación<span class="label"></span></span></li>
-						<li><span class="icon fa-bar-chart">Empatía<span class="label"></span></span></li>
-						<li><span class="icon fa-bar-chart">Empatía<span class="label"></span></span></li>
-
+						<div>
+							<span class=""><img src="images\tools\Javascript.png" alt="" class="redimen" /></span>
+							<span class=""><img src="images\tools\Html5.png" alt="" class="redimen" /></span>
+							<span class=""><img src="images\tools\Css3.png" alt="" class="redimen" /></span>
+							<span class=""><img src="images\tools\Firebase.png" alt="" class="redimen" /></span>
+							<span class=""><img src="images\tools\Git.png" alt="" class="redimen" />></span>
+							<span class=""><img src="images\tools\Github.png" alt="" class="redimen" /></span>
+							<span class=""><img src="images\tools\Node JS.png" alt="" class="redimen" /></span>
+							<span class=""><img src="images\tools\Npm.png" alt="" class="redimen" /></span>
+						</div>
 					</ul>
 				</div>
 			</section>
@@ -100,15 +104,64 @@
 				</div>
 				<div class="gallery">
 					<div class="group span-3">
-						<a href="images/gallery/fulls/01.jpg" class="image filtered span-3" data-position="bottom"><img
-								src="images/gallery/thumbs/01.jpg" alt="" /></a>
-						<a href="images/gallery/fulls/02.jpg" class="image filtered span-1-5"
-							data-position="center"><img src="images/gallery/thumbs/02.jpg" alt="" /></a>
-						<a href="images/gallery/fulls/03.jpg" class="image filtered span-1-5"
-							data-position="bottom"><img src="images/gallery/thumbs/03.jpg" alt="" /></a>
+
+							<div class="card">
+									<div class="card__image card__image--cipher"></div>
+									<div class="card__content">
+										<div class="card__title">MessAp</div>
+										<p class="card__text"> es una plataforma de mensajeria inspirada en el envio dinamico de la información. A traves de una clave numerica que solo tú y tus receptores conocerán podrás enviarla de forma protegida.
+										</p>
+										<button type="button" class="btn btn--block ">
+												<a href="https://pilarvm.github.io/lim-2018-11-bc-core-am-cipher/src/" target="_blank"> <i class="fa fa-eye" aria-hidden="true"></i></a>
+												<a href="https://github.com/pilarvm/lim-2018-11-bc-core-am-cipher" target="_blank"> <i class="fa fa-github " aria-hidden="true"></i></a>
+										</button>
+									</div>
+								</div>
+
+								<div class="card">
+										<div class="card__image card__image--data"></div>
+										<div class="card__content">
+											<div class="card__title">The-world-Bank</div>
+											<p class="card__text">Página con datos de desarrollo brindados por el Banco Mundial, divididos por temas y estadísticas.
+											</p>
+											<button type="button" class="btn btn--block ">
+													<a href="" target="_blank"> <i class="fa fa-eye" aria-hidden="true"></i></a>
+													<a href="" target="_blank"> <i class="fa fa-github " aria-hidden="true"></i></a>
+											</button>
+										</div>
+									</div>
+
+									<div class="card">
+											<div class="card__image card__image--social"></div>
+											<div class="card__content">
+												<div class="card__title">Eco Hack</div>
+												<p class="card__text">Red Social para los amantes de proyectos DIY y que buscan experimentar otros nuevos.
+													Conoce personas con tus mismas aficiones y recibe recomendaciones de otras..
+												</p>
+												<button type="button" class="btn btn--block ">
+														<a href="" target="_blank"> <i class="fa fa-eye" aria-hidden="true"></i></a>
+														<a href="" target="_blank"> <i class="fa fa-github " aria-hidden="true"></i></a>
+												</button>
+											</div>
+										</div>
+
+										<div class="card">
+												<div class="card__image card__image--library"></div>
+												<div class="card__content">
+													<div class="card__title">Md-Links</div>
+													<p class="card__text">Librería que extrae los links de tus archivos md., brinda información
+														del status de links y estadísticas sobre ellos. Puedes extraer los links desde un archivo
+														o una carpeta con éstos.
+													</p>
+													<button type="button" class="btn btn--block ">
+															<a href="" target="_blank"> <i class="fa fa-eye" aria-hidden="true"></i></a>
+															<a href="" target="_blank"> <i class="fa fa-github " aria-hidden="true"></i></a>
+													</button>
+												</div>
+											</div>
+									
+			
 					</div>
-					
-				</div>
 			</section>
 
 			<!-- Panel -->
@@ -124,8 +177,8 @@
 							<li class="icon fa-whatsapp"><a href="https://api.whatsapp.com/send?phone=51980447196&text=Hola!%20Pilar." target="_blank">+51 980 447 196</a></li>
 							<li class="icon fa-inbox"><a href="#" target="_blank">pjvarillas@gmail.com</a></li>
 							<li class="icon fa-github"><a href="https://github.com/pilarvm" target="_blank">/pilarvm</a></li>
-							<li class="icon fa-linkedin"><a href="" target="_blank">in/pilarvarillas</a></li>
-							<li class="icon fa-file"><a href="" target="_blank">cv</a></li>
+							<li class="icon fa-linkedin"><a href="https://www.linkedin.com/in/pilarvarillas/" target="_blank">in/pilarvarillas</a></li>
+							<li class="icon fa-file"><a href="https://github.com/pilarvm/portafolio/files/3078325/cv.pilar.varillas.2019.pdf" target="_blank">cv</a></li>
 						</ul>
 					</div>
 				</div>
